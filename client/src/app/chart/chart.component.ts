@@ -12,7 +12,7 @@ interface ParsedData extends RawData {
   date: Date
 }
 
-const margin = { top: 20, right: 20, bottom: 30, left: 50 }
+const margin = { top: 20, right: 20, bottom: 30, left: 32 }
 const width = 575 - margin.left - margin.right
 const height = 250 - margin.top - margin.bottom
 const bisectDate = d3.bisector((d: ParsedData) => d.date).left

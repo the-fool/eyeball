@@ -10,13 +10,15 @@ import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { ChartComponent } from './chart/chart.component';
 import { SummaryCardComponent } from './summary-card/summary-card.component';
+import { SearchComponent } from './search/search.component';
 
 console.log(d3)
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
-    SummaryCardComponent
+    SummaryCardComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
