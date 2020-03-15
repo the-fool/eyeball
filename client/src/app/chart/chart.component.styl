@@ -1,8 +1,21 @@
+grid-stroke = rgb(180,180,180)
+
 path.area {
-  fill: url(#chart-gradient);
-  fill-opacity: 1;
+  fill: url(#chart-gradient)
+  fill-opacity: 1
 }
 
 path.line {
-  stroke:rgb(15, 157, 88);
+  stroke:rgb(15, 157, 88)
+  stroke-width: 2px
+  fill-opacity: 0
 }
+
+path.domain {
+  opacity: 0
+}
+
+g.grid, g.tick {
+  color: grid-stroke
+}
+ 

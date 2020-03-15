@@ -9,12 +9,14 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { ChartComponent } from './chart/chart.component';
+import { SummaryCardComponent } from './summary-card/summary-card.component';
 
 console.log(d3)
 @NgModule({
   declarations: [
     AppComponent,
-    ChartComponent
+    ChartComponent,
+    SummaryCardComponent
   ],
   imports: [
     BrowserModule,
